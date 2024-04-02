@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    color: #fff;
+}
+
+.container {
+    background-image: linear-gradient(to bottom, #b96fa1, #5a3f8c);
+    width: 100%;
+    padding: 15px;
+}
+
+.sunnyContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.bgContainerCloudy {
+    background-color: #ffffff20;
+    border-radius: 7px;
+}
+
+.cloudyContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.cloudy {
+    width: 100%;
+}
+
+
+@media screen and (min-width:900px) {
+    .sunnyContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+    }
+
+    .container {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .bgContainerCloudy {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cloudyContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 10px;
+    }
+}
